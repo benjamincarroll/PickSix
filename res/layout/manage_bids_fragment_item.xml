@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/bidPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dip"
+        android:gravity="left"
+        android:padding="6dp"
+        android:text="default"
+        android:textSize="15sp"
+        android:typeface="sans" />
+    
+    <TextView 
+        android:id ="@+id/bidAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dip"
+        android:layout_below="@+id/bidPlayer"
+        android:padding="6dp"
+        android:text="default"
+        android:textSize="11sp"
+        android:typeface="sans"
+        />
+
+    
+    <Button
+        android:id= "@+id/bidButton"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bid" 
+        android:gravity="right"/>
+</RelativeLayout>

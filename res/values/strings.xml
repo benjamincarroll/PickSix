@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PickSix</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_sync">Sync</string>
+
+    <string name="content_authority">com.hockeypool.picksix</string>
+
+    <string name="account_type">com.google</string>
+</resources>
